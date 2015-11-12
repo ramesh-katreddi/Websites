@@ -1,0 +1,238 @@
+/* global section*/
+body
+{
+    background: #ebe8de;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+input
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    background: #EBE8DE;
+    border-radius:5px;
+    width:140px;
+    height:20px;
+}
+input[type="submit"]
+{
+    width:auto;
+    height:25px;   
+}
+label
+{
+    width:80px;
+    height:20px;
+    float:left;
+}
+
+p
+{
+    margin: 5px 0;
+    line-height: 25px;
+    display:inline;
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
+    transition: color .5s ease;
+}
+strong
+{
+    font-weight: bold;
+}
+
+/* Site Specific*/
+
+
+#container
+{
+   position:relative;
+   max-width:1000px;
+   margin:auto;
+   overflow:hidden;
+   background:#ffffff;
+}
+
+/* HEADER */
+
+header
+{
+    position:relative;
+    max-width:900px;
+    margin: 0 auto 5px auto;
+    padding:5px;
+}
+#logo img 
+{
+    width:100px;
+    height:100px;
+}
+header h1
+{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    margin:5px;
+    font-size:40px;
+    color:#bbbbbb;
+    font-family: 'Baumans', cursive;
+}
+/* login section*/
+#login-section
+{
+    float:right;
+    padding-right:20px;
+}
+#login-form
+{
+    display:inline;
+}
+nav 
+{
+    position:relative;
+    margin-left:5px;
+    clear:both;
+    overflow:hidden;
+}
+nav ul, #content ul
+{
+    list-style:none;
+}
+#content ul
+{
+    margin:0px;
+    padding:0px;
+}
+nav ul li
+{
+    background: #999999;
+    opacity:0.65;
+    border: 1px solid #f8f8f8;
+    border-bottom-color: #c2c7d0;
+    float:left;
+    padding:3px 20px;
+}
+nav ul li a
+{
+    font-family: 'Open Sans', sans-serif;
+    text-transform:uppercase;
+    transition: all .25s ease;
+}
+#content ul li a
+{
+    text-decoration:underline;
+}
+    
+#content ul li 
+{
+    margin:15px 0px;
+    text-overflow:ellipsis;
+}
+nav ul li:hover
+{
+    background:#ffffff;
+    border:1px solid #E56038;
+    border-radius:5px;
+}
+#content
+{
+    position:relative;
+    background:#ebe8de;
+    clear:both;
+}
+#row1,#row2,#row3
+{
+    overflow:hidden;
+    padding-top:20px;
+}
+.box
+{
+    background:#ffffff;
+    padding-top:10px;
+    padding-left:15px;
+    border-radius:10px;
+    height:200px;
+    border:1px solid #999999;
+}
+#find-lawyer
+{
+    width:250px;
+    float:left;
+}
+#find-lawyer h1
+{
+    padding-left:30px;
+}
+.row 
+{
+    display:block;
+    padding-top:20px;
+}
+.row-submit
+{
+    padding-left:60px;
+}
+
+#viv-quote
+{
+    position:absolute;
+    left:283px;
+    width:440px;
+}
+#quote
+{
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+#call
+{
+    width: 230px;
+    float:right;
+}
+#home
+{
+    float:left;
+    width:723px;
+    position:relative;
+    height:380px;
+}
+#desclaimer{
+    float:right;
+    position:absolute;
+    bottom:10px;
+    right:50px;
+}
+#whatnews
+{
+    float:right;
+    width:230px;
+    height:380px;
+}
+#constitution
+{
+    float:left;
+    width:390px;
+    height:350px;
+}
+#constitution h4,#forum h4
+{
+    text-align:center;
+}
+#forum
+{
+    float:left;
+    width:300px;  
+    margin-left:13px;
+    height:350px;
+}
+#add
+{
+    width:230px;
+    float:right;
+     height:350px;
+   
+}
